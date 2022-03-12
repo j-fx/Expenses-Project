@@ -1,4 +1,4 @@
-This application is built using HTLM, Javascript, React, and CSS.
+This application is built using HTML, Javascript, React, and CSS.
 The user can add expenses, inserting Title, Amount, and Date.
 A Modal error message is displayed when the input is invalid.
 A graph represents the expenses filtered by year.
