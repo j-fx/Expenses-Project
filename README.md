@@ -1,5 +1,7 @@
 This application is built using HTML, Javascript, React, and CSS.
 The user can add expenses, inserting Title, Amount, and Date.
+
+![alt text](http://url/images/img_0000.jpeg)
 A Modal error message is displayed when the input is invalid.
 A graph represents the expenses filtered by year.
 An expense list displays all the expenses details filtered by year.
