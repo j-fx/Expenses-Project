@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./ExpenseForm.css";
 import Button from "../UI/Button";
 import ErrorModal from "../UI/ErrorModal";
@@ -65,7 +65,7 @@ function ExpenseForm(props) {
   }
 
   return (
-    <div>
+    <React.Fragment>
       {error && (
         <ErrorModal
           title={error.title}
@@ -109,7 +109,7 @@ function ExpenseForm(props) {
           <Button onClick={cancelHandler}>Cancel</Button>
         </div>
       </form>
-    </div>
+    </React.Fragment>
   );
 }
 
