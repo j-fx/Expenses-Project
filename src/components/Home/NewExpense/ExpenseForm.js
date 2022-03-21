@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./ExpenseForm.css";
-import Button from "../UI/Button";
-import ErrorModal from "../UI/ErrorModal";
+import Button from "../../UI/Button/Button";
+import ErrorModal from "../../UI/ErrorModal/ErrorModal";
 
 function ExpenseForm(props) {
   const [error, setError] = useState();

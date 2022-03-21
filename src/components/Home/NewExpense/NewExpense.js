@@ -1,7 +1,7 @@
 import styles from "./NewExpense.module.css";
 import ExpenseForm from "./ExpenseForm";
 import { useState } from "react";
-import Button from "../UI/Button";
+import Button from "../../UI/Button/Button";
 
 function NewExpense(props) {
   const [isEditing, setIsEditing] = useState(false);

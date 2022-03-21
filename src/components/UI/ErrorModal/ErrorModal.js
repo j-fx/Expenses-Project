@@ -1,5 +1,5 @@
-import Card from "./Card";
-import Button from "./Button";
+import Card from "../Card/Card";
+import Button from "../Button/Button";
 import styles from "./ErrorModal.module.css";
 import React from "react";
 import ReactDOM from "react-dom";
