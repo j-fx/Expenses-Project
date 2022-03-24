@@ -24,7 +24,7 @@ const DUMMY_EXPENSES = [
   },
 ];
 
-function Home(props) {
+function Home() {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
   function addExpenseHandler(expense) {
